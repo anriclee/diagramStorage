@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T03:20:48.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="FkH47KiHFLFuD9tidhkN" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T03:24:59.386Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="1eVoDCWbwypcpVeYmbwN" version="20.0.1" type="github">
   <diagram id="iSEeCmE4DPPwDP-ZEpLK" name="Page-1">
     <mxGraphModel dx="946" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wY0kmTrwsAvkIckaToPT-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="690" y="180" width="60" height="80" as="geometry" />
+          <mxGeometry x="640" y="120" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wY0kmTrwsAvkIckaToPT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wY0kmTrwsAvkIckaToPT-3" target="wY0kmTrwsAvkIckaToPT-4">
           <mxGeometry relative="1" as="geometry">
@@ -38,17 +38,17 @@
         <mxCell id="wY0kmTrwsAvkIckaToPT-4" value="Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wY0kmTrwsAvkIckaToPT-5" value="本地消息表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="270" width="100" height="30" as="geometry" />
+        <mxCell id="wY0kmTrwsAvkIckaToPT-5" value="客户端本地消息表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="210" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wY0kmTrwsAvkIckaToPT-7" value="1. 根据updatedTime拉取最新变化的 conversation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="50" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wY0kmTrwsAvkIckaToPT-9" value="2. 返回 conversation&amp;nbsp; 附带拉取新消息的 message url" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="210" width="160" height="30" as="geometry" />
+        <mxCell id="wY0kmTrwsAvkIckaToPT-9" value="2. 拉新消息的 message url + 拉历史消息的 url" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="210" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wY0kmTrwsAvkIckaToPT-10" value="3. 根据 message url 拉取新消息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="260" width="220" height="30" as="geometry" />
+        <mxCell id="wY0kmTrwsAvkIckaToPT-10" value="3. 拉取新消息 + 历史消息（上翻历史记录触发）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wY0kmTrwsAvkIckaToPT-13" value="4. 消息入库" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="590" y="60" width="220" height="30" as="geometry" />
