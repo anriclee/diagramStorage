@@ -1,1 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T11:44:53.446Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" version="20.0.1" etag="d4f0BZ_avTOrCoqj70_U" type="github"><diagram id="YhFJ1sRqdMSHymtpLtQC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-19T11:52:34.697Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="XgduJdzQAp87N9fGqOiI" version="20.0.1" type="github">
+  <diagram id="YhFJ1sRqdMSHymtpLtQC" name="Page-1">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-1" value="kafka" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="280" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=3;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fad7ac;strokeColor=#CC6600;" edge="1" parent="1" source="FIGVCntXID5Kl7jD_Wz3-3" target="FIGVCntXID5Kl7jD_Wz3-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="220" />
+              <mxPoint x="190" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-4" value="在线" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="950" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-6" value="message1" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#CC6600;" edge="1" parent="1" source="FIGVCntXID5Kl7jD_Wz3-11" target="FIGVCntXID5Kl7jD_Wz3-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-8" value="获取在线信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FIGVCntXID5Kl7jD_Wz3-7">
+          <mxGeometry x="0.3259" relative="1" as="geometry">
+            <mxPoint x="-24" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=3;strokeWidth=3;strokeColor=#CC6600;" edge="1" parent="1" source="FIGVCntXID5Kl7jD_Wz3-11" target="FIGVCntXID5Kl7jD_Wz3-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=3;strokeWidth=3;strokeColor=#CC6600;" edge="1" parent="1" source="FIGVCntXID5Kl7jD_Wz3-11" target="FIGVCntXID5Kl7jD_Wz3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#CC6600;" edge="1" parent="1" source="FIGVCntXID5Kl7jD_Wz3-11" target="FIGVCntXID5Kl7jD_Wz3-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-11" value="worker&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="510" y="220" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-12" value="message1" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=3;strokeWidth=3;strokeColor=#CC6600;" edge="1" parent="1" source="FIGVCntXID5Kl7jD_Wz3-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-16" value="push/longlink service" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="720" y="130" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-17" value="Cache" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-18" value="离线" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="950" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#CC6600;strokeWidth=3;" edge="1" parent="1" source="FIGVCntXID5Kl7jD_Wz3-22" target="FIGVCntXID5Kl7jD_Wz3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIGVCntXID5Kl7jD_Wz3-22" value="离线存储&lt;br&gt;不（缓慢）通知" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="720" y="300" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
