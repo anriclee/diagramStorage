@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-28T09:44:19.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.52" version="20.8.5" etag="IHuSOpykA2H-ASxBRcmc" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-28T09:56:07.848Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.52" version="20.8.5" etag="v0RUOeIyY4kzRVNWymoQ" type="github" pages="3">
   <diagram id="gJlymvPTfnjVqmB4t_Ub" name="第 1 页">
     <mxGraphModel dx="954" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -167,6 +167,57 @@
         </mxCell>
         <mxCell id="LQM3rTLZv_mq_uVSX_4l-30" value="内核线程" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="700" y="80" width="150" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_ek8w8ZRkXKYXkpu1N2g" name="第 3 页">
+    <mxGraphModel dx="954" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1qVOY7b89PSbeS9ssW7o-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="1qVOY7b89PSbeS9ssW7o-1" target="1qVOY7b89PSbeS9ssW7o-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1qVOY7b89PSbeS9ssW7o-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="1qVOY7b89PSbeS9ssW7o-1" target="1qVOY7b89PSbeS9ssW7o-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="320" />
+              <mxPoint x="650" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qVOY7b89PSbeS9ssW7o-1" value="内核" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1qVOY7b89PSbeS9ssW7o-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="1qVOY7b89PSbeS9ssW7o-2" target="1qVOY7b89PSbeS9ssW7o-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="190" />
+              <mxPoint x="280" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qVOY7b89PSbeS9ssW7o-2" value="网卡驱动" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="590" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1qVOY7b89PSbeS9ssW7o-3" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="1qVOY7b89PSbeS9ssW7o-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="260" as="sourcePoint" />
+            <mxPoint x="210" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qVOY7b89PSbeS9ssW7o-4" value="1. 启动网卡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1qVOY7b89PSbeS9ssW7o-6" value="2. 注册网卡驱动处理函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1qVOY7b89PSbeS9ssW7o-9" value="3. 分配发送队列、接收队列内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1qVOY7b89PSbeS9ssW7o-12" value="4. 注册中断处理函数 &amp;amp; 打开硬中断，迎接网络包的到来" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="285" y="325" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
