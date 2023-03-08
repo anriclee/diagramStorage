@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T08:39:45.488Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="LGpw2fsgAgFh036wvWtI" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-08T08:51:44.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="fRIp1ZlSi_HL0ItwuyXb" version="21.0.2" type="github">
   <diagram name="第 1 页" id="pdHB1KwC9OdD0lzzkn8h">
     <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="300" y="260" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="3epgwcAaoq6Mlc2vSQ9l-7" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="120" y="440" width="60" height="80" as="geometry" />
+          <mxGeometry x="120" y="530" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3epgwcAaoq6Mlc2vSQ9l-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3epgwcAaoq6Mlc2vSQ9l-9" target="3epgwcAaoq6Mlc2vSQ9l-7">
           <mxGeometry relative="1" as="geometry" />
@@ -29,7 +29,10 @@
           <mxGeometry x="170" y="350" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3epgwcAaoq6Mlc2vSQ9l-11" value="服务启动时 load 到内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="410" width="150" height="30" as="geometry" />
+          <mxGeometry x="180" y="460" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3epgwcAaoq6Mlc2vSQ9l-12" value="定时刷新" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="490" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
